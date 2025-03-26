@@ -1,0 +1,33 @@
+{
+  "name": "App-Manager",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Ero",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "description": "App Manager From Ero Innovations Used to Update Softwares for WebSites,Desktop and Android on an Instant",
+  "build": {
+    "appId": "com.eroinnovations.manager",
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "icon": "app.ico"
+    },
+    "mac": {
+      "icon": "app.icns"
+    },
+    "linux": {
+      "icon": "app.png"
+    }
+  }
+}
